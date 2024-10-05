@@ -5,7 +5,7 @@ import plotly.express as px
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("car_price_clean_data2.csv")
+    return pd.read_csv("cleaned_car_prices.csv")
 
 df = load_data()
 
